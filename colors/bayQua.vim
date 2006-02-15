@@ -1,5 +1,5 @@
 " Vim color file
-" bayQua v1.0
+" bayQua v1.1
 " http://www.vim.org/scripts/script.php?script_id=1454
 " 
 " Maintainer:	Shawn Axsom <axs221@gmail.com>
@@ -41,11 +41,11 @@ endif
 hi Title		guifg=#857540 guibg=#f0f0fa gui=none
 hi Underlined   guifg=#dae5da guibg=#f0f0fa 
 
-hi Statement    guifg=#df202a guibg=#f0e5ec  gui=none
-hi Type			guifg=#305aaa guibg=#d9ebe8  gui=none
-hi Constant		guifg=#3a40aa guibg=#dee5fa  gui=none
+hi Statement    guifg=#da302a guibg=#f3e8e5  gui=none
+hi Type			guifg=#305aaa guibg=#daedea  gui=none
+hi Constant		guifg=#3a40aa guibg=#e3e6fa  gui=none
 hi PreProc      guifg=#9570b5 guibg=#e3e5f5
-hi Identifier   guifg=#855065 guibg=#e4e4e4
+hi Identifier   guifg=#855065 guibg=#e0e2e0
 hi Special		guifg=#652a7a guibg=#e9e2ee
 hi Ignore       guifg=grey40
 hi Todo			guifg=orangered guibg=yellow2
@@ -53,10 +53,10 @@ hi Error        guibg=#b03452
 """""this section borrowed from OceanDeep/Midnight"""""
 hi Number guifg=#006bcd guibg=#deeaf0
 hi Function gui=None guifg=#d06d50 guibg=#e5e5ea "or green 50b3b0 
-highlight Conditional gui=None guifg=#a50a4a guibg=#f0e5ed
-highlight Repeat gui=None guifg=#800d5a guibg=#f0e5ed
+highlight Conditional gui=None guifg=#a50a4a guibg=#f0dbf5
+highlight Repeat gui=None guifg=#700d8a guibg=#f5deee
 "hi Label gui=None guifg=LightGreen guibg=bg
-highlight Operator gui=None guifg=#daca65 guibg=bg
+highlight Operator gui=None guifg=#e0b045 guibg=#e5eae0
 highlight Keyword gui=bold guifg=grey guibg=bg
 highlight Exception gui=none guifg=#ea5460 guibg=bg
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -107,7 +107,7 @@ hi PmenuSel     guibg=#4a85ba guifg=#b0d0f0
 
 
 " color terminal definitions
-hi Normal ctermfg=grey
+hi Normal ctermfg=black ctermbg=grey
 hi Number ctermfg=blue
 highlight Operator ctermfg=yellow
 highlight Conditional ctermfg=red
@@ -118,22 +118,22 @@ hi SpecialKey	ctermfg=darkgreen
 hi NonText	cterm=bold ctermfg=darkgrey
 hi Directory	ctermfg=darkcyan
 hi ErrorMsg	cterm=bold ctermfg=7 ctermbg=1
-hi IncSearch	ctermfg=darkblue ctermbg=grey cterm=NONE
-hi Search	ctermfg=black ctermbg=grey cterm=NONE
+hi IncSearch	ctermfg=white ctermbg=blue cterm=NONE
+hi Search	ctermfg=grey ctermbg=blue cterm=NONE
 hi MoreMsg	ctermfg=darkgreen
 hi ModeMsg	cterm=NONE ctermfg=brown
 hi LineNr	ctermfg=darkcyan ctermbg=NONE
 hi Question	ctermfg=green
-hi StatusLine	ctermfg=blue ctermbg=grey cterm=NONE
-hi StatusLineNC ctermfg=black ctermbg=grey cterm=NONE
-hi VertSplit	ctermfg=black ctermbg=grey cterm=NONE
-hi Title	ctermfg=15
-hi Visual	ctermbg=darkcyan ctermfg=black cterm=NONE
-hi VisualNOS	ctermbg=darkcyan ctermfg=black cterm=NONE
+hi StatusLine	ctermfg=cyan ctermbg=black cterm=NONE
+hi StatusLineNC ctermfg=grey ctermbg=black cterm=NONE
+hi VertSplit	ctermfg=black ctermbg=black cterm=NONE
+hi Title	ctermfg=darkyellow ctermbg=white
+hi Visual	ctermbg=darkblue ctermfg=grey cterm=NONE
+hi VisualNOS	ctermbg=darkcyan ctermfg=white cterm=NONE
 hi WarningMsg	ctermfg=1
 hi WildMenu	ctermfg=0 ctermbg=3
-hi Folded	ctermfg=darkgreen ctermbg=NONE cterm=NONE
-hi FoldColumn	ctermfg=green ctermbg=black
+hi Folded	ctermfg=black ctermbg=white cterm=NONE
+hi FoldColumn	ctermfg=green ctermbg=grey
 hi DiffAdd	ctermbg=4
 hi DiffChange	ctermbg=5
 hi DiffDelete	cterm=bold ctermfg=4 ctermbg=6
@@ -142,19 +142,19 @@ hi DiffText	cterm=bold ctermbg=1
 "set comments to grey on non-Windows OS's to make sure
 "it is readable
 if &term == "builtin_gui" || &term == "win32"
-	hi Comment		ctermfg=darkgrey  ctermbg=darkblue
+	hi Comment		ctermfg=black  ctermbg=darkcyan
 else
-	hi Comment		ctermfg=grey  ctermbg=darkblue
+	hi Comment		ctermfg=grey  ctermbg=darkcyan
 endif
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 
-hi Constant	ctermfg=blue
+hi Constant	ctermfg=darkblue
 hi Special	ctermfg=darkmagenta
-hi Identifier	ctermfg=darkyellow
-hi Statement	ctermfg=red
+hi Identifier	ctermfg=darkyellow ctermbg=bg
+hi Statement	ctermfg=darkred
 hi PreProc	ctermfg=magenta
-hi Type		ctermfg=cyan " ctermbg=darkblue
-hi Underlined	cterm=underline ctermfg=7
+hi Type		ctermfg=blue "or darkcyan
+hi Underlined	ctermfg=black ctermbg=white
 hi Ignore	cterm=bold ctermfg=7
 hi Ignore	ctermfg=darkgrey
 hi Error	cterm=bold ctermfg=7 ctermbg=1
