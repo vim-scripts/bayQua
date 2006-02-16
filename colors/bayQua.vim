@@ -1,5 +1,5 @@
 " Vim color file
-" bayQua v1.1b
+" bayQua v1.1c
 " http://www.vim.org/scripts/script.php?script_id=1454
 " 
 " Maintainer:	Shawn Axsom <axs221@gmail.com>
@@ -42,10 +42,10 @@ hi Title		guifg=#857540 guibg=#f0f0fa gui=none
 hi Underlined   guifg=#8a758a guibg=#f0f0fa 
 
 hi Statement    guifg=#da302a guibg=#f3e8e5  gui=none
-hi Type			guifg=#305aaa guibg=#daedea  gui=none
+hi Type			guifg=#307aca guibg=#daedea  gui=none
 hi Constant		guifg=#3a40aa guibg=#e3e6fa  gui=none
 hi PreProc      guifg=#9570b5 guibg=#e5e5fb
-hi Identifier   guifg=#856075 guibg=#e0e0e0  "gui=bold
+hi Identifier   guifg=#856075 guibg=#e3e3e3  "gui=bold
 hi Special		guifg=#652a7a guibg=#ebe5ef
 hi Ignore       guifg=grey40
 hi Todo			guifg=orangered guibg=yellow2
@@ -58,7 +58,7 @@ highlight Repeat gui=None guifg=#700d8a guibg=#f5deee
 "hi Label gui=None guifg=LightGreen guibg=bg
 highlight Operator gui=None guifg=#e0b045 guibg=#e5eae0
 highlight Keyword gui=bold guifg=grey guibg=bg
-highlight Exception gui=none guifg=#ea5460 guibg=bg
+highlight Exception gui=none guifg=#ea5460 guibg=#f3e8e5 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
 "end syntax highlighting """""""""""""""""""""""""""""""""""""
 
@@ -71,7 +71,7 @@ hi Directory	guifg=#bbd0df
 "hi DiffText
 hi ErrorMsg     guibg=#ff4545
 
-hi Cursor       guibg=#d0e0d0 guifg=#05293d
+hi Cursor       guibg=#cadaca guifg=#05293d
 
 hi FoldColumn	guibg=#409ae0 guifg=darkgrey
 "hi FoldColumn	guibg=#83a5cd guifg=#70459F
