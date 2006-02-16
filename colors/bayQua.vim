@@ -1,5 +1,5 @@
 " Vim color file
-" bayQua v1.1
+" bayQua v1.1b
 " http://www.vim.org/scripts/script.php?script_id=1454
 " 
 " Maintainer:	Shawn Axsom <axs221@gmail.com>
@@ -39,14 +39,14 @@ endif
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 
 hi Title		guifg=#857540 guibg=#f0f0fa gui=none
-hi Underlined   guifg=#dae5da guibg=#f0f0fa 
+hi Underlined   guifg=#8a758a guibg=#f0f0fa 
 
 hi Statement    guifg=#da302a guibg=#f3e8e5  gui=none
 hi Type			guifg=#305aaa guibg=#daedea  gui=none
 hi Constant		guifg=#3a40aa guibg=#e3e6fa  gui=none
-hi PreProc      guifg=#9570b5 guibg=#e3e5f5
-hi Identifier   guifg=#855065 guibg=#e0e2e0
-hi Special		guifg=#652a7a guibg=#e9e2ee
+hi PreProc      guifg=#9570b5 guibg=#e5e5fb
+hi Identifier   guifg=#856075 guibg=#e0e0e0  "gui=bold
+hi Special		guifg=#652a7a guibg=#ebe5ef
 hi Ignore       guifg=grey40
 hi Todo			guifg=orangered guibg=yellow2
 hi Error        guibg=#b03452
