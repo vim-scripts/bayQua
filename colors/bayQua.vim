@@ -1,5 +1,5 @@
 " Vim color file
-" bayQua v1.2
+" bayQua v1.2b
 " http://www.vim.org/scripts/script.php?script_id=1454
 " 
 " Maintainer:	Shawn Axsom <axs221@gmail.com>
@@ -38,27 +38,27 @@ else
 endif
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 
-hi Title		guifg=#857540 guibg=#f0f0fa gui=none
-hi Underlined   guifg=#8a758a guibg=#f0f0fa 
+hi Title		guifg=#857540  gui=none
+hi Underlined   guifg=#8a758a  
 
-hi Statement    guifg=#da302a guibg=#f3e8e5  gui=none
-hi Type			guifg=#307aca guibg=#daedea  gui=none
-hi Constant		guifg=#3a40aa guibg=#e3e6fa  gui=none
-hi PreProc      guifg=#9570b5 guibg=#e5e5fb
-hi Identifier   guifg=#856075 guibg=#e3e3e3  "gui=bold
-hi Special		guifg=#652a7a guibg=#ebe5ef
+hi Statement    guifg=#da302a  gui=none
+hi Type			guifg=#307aca  gui=none
+hi Constant		guifg=#3a40aa  gui=none
+hi PreProc      guifg=#9570b5 
+hi Identifier   guifg=#856075  "gui=bold
+hi Special		guifg=#652a7a 
 hi Ignore       guifg=grey40
 hi Todo			guifg=orangered guibg=yellow2
 hi Error        guibg=#b03452
 """""this section borrowed from OceanDeep/Midnight"""""
-hi Number guifg=#006bcd guibg=#deeaf0
-hi Function gui=None guifg=#d06d50 guibg=#e5e5ea "or green 50b3b0 
-highlight Conditional gui=None guifg=#a50a4a guibg=#f0dbf5
-highlight Repeat gui=None guifg=#700d8a guibg=#f5deee
+hi Number guifg=#006bcd 
+hi Function gui=None guifg=#d06d50 "or green 50b3b0 
+highlight Conditional gui=None guifg=#a50a4a
+highlight Repeat gui=None guifg=#700d8a
 "hi Label gui=None guifg=LightGreen guibg=bg
-highlight Operator gui=None guifg=#e0b045 guibg=#e5eae0
+highlight Operator gui=None guifg=#e0b045
 highlight Keyword gui=bold guifg=grey guibg=bg
-highlight Exception gui=none guifg=#ea5460 guibg=#f3e8e5 
+highlight Exception gui=none guifg=#ea5460
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
 "end syntax highlighting """""""""""""""""""""""""""""""""""""
 
